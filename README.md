@@ -72,7 +72,7 @@ Gözetimsiz Öğrenme ise veri setinde hedef değişken olmadığı durumlar iç
 ### Sonuçların Yorumlanması
 Bu projede gözetimli öğrenme modellerinin daha başarılı olduğu görülmüştür. Random Forest, değişkenler arasındaki karmaşık ilişkileri daha iyi yakalayarak en iyi tahmin sonuçlarını verdi. Gözetimsiz öğrenme modelleri ise bu tarz etiketli veri setlerinde yetersiz kaldı.
 
-##Kurulum
+## Kurulum
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 1. Gerekli Python kütüphanelerini yükleyin:
