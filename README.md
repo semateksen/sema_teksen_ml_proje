@@ -61,7 +61,7 @@ Matplotlib ve Seaborn: Veri görselleştirme.
 
 ## Sonuçlar
 - Random Forest Classifier en yüksek doğruluk oranına sahipti ve genellikle en dengeli performansı gösterdi.
-- Logistic Regression, Random Forest kadar olmasa da yaklaşık %75 doğruluk oranı ile başarılı bir sonuç verdi.
+- Logistic Regression, Random Forest kadar olmasa da yüksek doğruluk oranı ile başarılı bir sonuç verdi.
 - Support Vector Machines (SVM) daha uzun eğitim süresi gerektirmesine rağmen, doğruluk oranı %72 ile diğer modellere kıyasla daha düşüktü.
 - K-Means Kümeleme (gözetimsiz model) ise etiketi olmadan benzer örnekleri gruplandırmaya çalıştı, ancak etiketli tahmin modeli ile kıyaslandığında performansı yetersiz kaldı.
 
