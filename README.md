@@ -78,6 +78,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları t
 1. Gerekli Python kütüphanelerini yükleyin:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
+
 2. Veri setini indirin ve proje klasörünüze ekleyin.
 
 3. notebook.ipynb dosyasını açın ve adım adım işlemleri takip ederek modeli eğitin ve test edin.
