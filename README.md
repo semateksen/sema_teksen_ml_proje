@@ -12,17 +12,17 @@ Bu proje, hastaların planlanan doktor randevularına katılıp katılmayacaklar
 Veri seti, Brezilya'daki tıbbi randevulara ait bilgileri içerir ve hastaların randevuya katılıp katılmadığını gösteren bir hedef değişken (No-show) barındırmaktadır. Hedef değişkeni kullanarak, randevuya katılımı etkileyebilecek özniteliklerden (cinsiyet, yaş, randevu tarihi, hastanın tıbbi geçmişi vb.) yararlanarak tahmin yapılmaya çalışılmıştır.
 
 ### Kullanılan Özellikler
-Gender: Hastanın cinsiyeti.
-ScheduledDay: Randevunun planlandığı gün.
-AppointmentDay: Randevunun olduğu gün.
-Age: Hastanın yaşı.
-Scholarship: Hastanın sosyal yardım alıp almadığı.
-Hypertension: Hipertansiyon geçmişi.
-Diabetes: Diyabet geçmişi.
-Alcoholism: Alkol geçmişi.
-Handcap: Engellilik durumu.
-SMS_received: Hastaya randevu hatırlatma SMS'i gönderilip gönderilmediği.
-No-show: Hastanın randevuya katılıp katılmadığı (Evet/Hayır).
+- Gender: Hastanın cinsiyeti.
+- ScheduledDay: Randevunun planlandığı gün.
+- AppointmentDay: Randevunun olduğu gün.
+- Age: Hastanın yaşı.
+- Scholarship: Hastanın sosyal yardım alıp almadığı.
+- Hypertension: Hipertansiyon geçmişi.
+- Diabetes: Diyabet geçmişi.
+- Alcoholism: Alkol geçmişi.
+- Handcap: Engellilik durumu.
+- SMS_received: Hastaya randevu hatırlatma SMS'i gönderilip gönderilmediği.
+- No-show: Hastanın randevuya katılıp katılmadığı (Evet/Hayır).
 
 ## Projede Yapılanlar
 1. Veri Ön İşleme:
@@ -54,10 +54,10 @@ Modellerin performansı Accuracy (doğruluk), Precision (kesinlik), Recall (duya
 
 Projede kullanılan Python kütüphaneleri şunlardır:
 
-Pandas: Veri işleme ve analiz.
-NumPy: Sayısal hesaplamalar.
-Scikit-Learn (sklearn): Makine öğrenmesi algoritmaları ve veri ön işleme.
-Matplotlib ve Seaborn: Veri görselleştirme.
+- Pandas: Veri işleme ve analiz.
+- NumPy: Sayısal hesaplamalar.
+- Scikit-Learn (sklearn): Makine öğrenmesi algoritmaları ve veri ön işleme.
+- Matplotlib ve Seaborn: Veri görselleştirme.
 
 ## Sonuçlar
 - Random Forest Classifier en yüksek doğruluk oranına sahipti ve genellikle en dengeli performansı gösterdi.
@@ -66,8 +66,8 @@ Matplotlib ve Seaborn: Veri görselleştirme.
 - K-Means Kümeleme (gözetimsiz model) ise etiketi olmadan benzer örnekleri gruplandırmaya çalıştı, ancak etiketli tahmin modeli ile kıyaslandığında performansı yetersiz kaldı.
 
 ### Öğrenme Türleri Arasındaki Farklar
-Gözetimli Öğrenme modelleri, etiketli veri ile çalıştıkları için hedef değişkeni başarıyla tahmin edebildi. Random Forest ve Logistic Regression en iyi performans gösteren modellerdi.
-Gözetimsiz Öğrenme ise veri setinde hedef değişken olmadığı durumlar için uygundur. K-Means gibi algoritmalar, yalnızca veri kümeleri arasında benzerlikleri tespit edebildi ve tahmin yeteneği olmadığından gözetimli öğrenmeye göre zayıf bir performans sergiledi.
+- Gözetimli Öğrenme modelleri, etiketli veri ile çalıştıkları için hedef değişkeni başarıyla tahmin edebildi. Random Forest ve Logistic Regression en iyi performans gösteren modellerdi.
+- Gözetimsiz Öğrenme ise veri setinde hedef değişken olmadığı durumlar için uygundur. K-Means gibi algoritmalar, yalnızca veri kümeleri arasında benzerlikleri tespit edebildi ve tahmin yeteneği olmadığından gözetimli öğrenmeye göre zayıf bir performans sergiledi.
 
 ### Sonuçların Yorumlanması
 Bu projede gözetimli öğrenme modellerinin daha başarılı olduğu görülmüştür. Random Forest, değişkenler arasındaki karmaşık ilişkileri daha iyi yakalayarak en iyi tahmin sonuçlarını verdi. Gözetimsiz öğrenme modelleri ise bu tarz etiketli veri setlerinde yetersiz kaldı.
